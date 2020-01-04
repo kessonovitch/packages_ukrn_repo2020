@@ -1,10 +1,11 @@
 # downloading OSF components for UKRN Advanced methods workshop
-# Cassandra Gould van Praag, January 2020 (cassandrea.gouldvanpraag@psych.ox.ac.uk)
+# Cassandra Gould van Praag, January 2020 (cassandra.gouldvanpraag@psych.ox.ac.uk)
 
 # This script will create a directory called "AdvancedMethodsWorkshop-OSF" in the 
-# same location as this script. Subdirectories will then be created for each compnent.
-# Requires osfr package. You may first need to install devtools from the Rstudio "install package function"
+# same location as this file. Subdirectories will then be created for each component.
+# Requires osfr package. You may first need to install devtools from Rstudio Tools>Install Packages
 # Then in Rstudio console > devtools::install_github('CenterForOpenScience/osfr')
+# Many thanks to @CourtneySoderberg and @DanielLakens for the starting inspiration.
 
 library(osfr) 
 
